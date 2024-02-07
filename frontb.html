@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your website description goes here.">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..."> <!-- Replace with the actual integrity value -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="img/images.png" alt="Your Website Logo" class="logo">
+    <div class="header-content">
+      <h1>Your Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="search-container">
+      <form id="searchForm">
+        <label for="searchBar">Search:</label>
+        <input type="text" id="searchBar" name="searchBar" placeholder="Enter your search item...-">
+        <button type="button" onclick="searchFunction()">
+          <i class="fas fa-search"></i> Search
+        </button>
+      </form>
+    </div>
+    
+    <img src="img/pexels.jpeg" alt="Vishal" class="main-image">
+    
+    <section class="main-content">
+      <p>This is the main content area. Customize it as per your needs.</p>
+      
+      <fieldset class="login-form">
+        <legend>Login</legend>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+    
+          <button type="submit">Login</button>
+        </form>
+      </fieldset>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 Your Website. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
